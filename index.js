@@ -58,6 +58,7 @@ const email=req.body.email;
 
 const index=data.findIndex((data)=>{
     return data.id==Number(newid);
+    
 })
 
 if(index>=0)
